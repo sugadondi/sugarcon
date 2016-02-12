@@ -1,0 +1,2014 @@
+/* FONTS */
+/* Stackicons-Social-Minimal (subset)
+   Includes codepen, dribbble, email, facebook, flickr,
+   github, instagram, linkedin, pinboard, pinterest,
+   rss, tumblr, twitter, vimeo, youtube, menu, search,
+   and triangle-down (along with some variants).
+*/
+@font-face {
+  font-family: 'Stackicons-Social';
+  src: url("../fonts/Stackicons-Social-Minimal.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Stackicons-Social-Minimal.eot?#iefix") format("embedded-opentype"), url("../fonts/Stackicons-Social-Minimal.woff") format("woff"), url("../fonts/Stackicons/Stackicons-Social-Minimal.ttf") format("truetype"), url("../fonts/Stackicons-Social-Minimal.svg#76cc4077294aa89eeb6c5fa684bb9048") format("svg");
+  /* Legacy iOS */
+  font-style: normal !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  speak: none;
+}
+
+/* =============================================================================
+ *     STACKICONS-SOCIAL - BRAND COLOR VARIABLES (2014)  http://stackicons.com
+ *     v1.13 - February 3, 2014
+ * =============================================================================
+ */
+/* line 131, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 141, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 274, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 286, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 298, ../scss/_construction-kit-stackicons-social.scss */
+
+/* =================================================================
+ *     STACKICONS-SOCIAL - UNICODE CHARACTER MAPPING
+ *     http://stackicons.com/scss/_unicodes-stackicons-social.scss
+ * =================================================================
+ */
+/* line 131, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 141, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 274, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 286, ../scss/_construction-kit-stackicons-social.scss */
+
+/* line 298, ../scss/_construction-kit-stackicons-social.scss */
+
+/* default is a horizontal button row, using
+   inline-block vs float to make positioning
+   to the right easier using text-align */
+/* line 28, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+[class^="st-icon-"] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  /* child elements absolute */
+  position: relative;
+  /* remove inline-block white-space */
+  margin: 0 -.16em 0 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* padding isn't used for icons since
+     pseudo elements use position:absolute
+     and box-sizing:border-box collapses
+     size, but we need it here for text */
+  padding: 0.143em;
+  /* icons at 2400 but 2048 = 1em, so ratio = 1.171875 */
+  height: 1.45788em;
+  width: 1.45788em;
+  font-size: 1.815em;
+  /* btn or icon only - text hidden */
+  text-align: left;
+  text-indent: -9999px;
+  /* ie7 inline-block hack */
+  zoom: 1;
+  *display: inline;
+}
+
+/* for vertical lists with text */
+/* line 58, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 60, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 75, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 82, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 86, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+/* line 87, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+/* line 89, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* Icons use position: absolute to stack.
+   Pseudo-elements display icons so they don't
+   render in unstyled html. Extra <span> needed
+   in markup to stack more than two elements.
+
+   <b> and <i> reserved for button styling --
+   bevels, and inline-border.
+
+   Remember, these are child elements so they
+   will inherit, and cascade em units from
+   span, b, and i.
+*/
+/* line 119, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+[class^="st-icon-"]:before,
+[class^="st-icon-"]:after,
+[class^="st-icon-"] span:before,
+[class^="st-icon-"] span:after {
+  /* transition */
+  -webkit-transition: color 0.2s ease-out, background 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out, background 0.2s ease-out;
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+  display: block;
+  position: absolute;
+  white-space: normal;
+  top: 0.113em;
+  left: 0.143em;
+  text-indent: 0;
+  font-size: 1em;
+  font-family: "Stackicons-Social";
+  font-weight: 400 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  /* screenreaders */
+  speak: none;
+}
+
+/* line 141, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 146, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 151, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 155, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 159, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 163, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 248, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 266, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 273, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-facebook-alt:before {
+  content: "\e02b";
+  color: #3b5998;
+}
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-facebook-alt:hover:before,
+.st-icon-facebook-alt:focus:before {
+  color: #91a8d7;
+  color: #91a8d7;
+}
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-linkedin:before {
+  content: "\e25b";
+  color: #107eb8;
+}
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-linkedin:hover:before,
+.st-icon-linkedin:focus:before {
+  color: #70c6f3;
+  color: #70c6f3;
+}
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-twitter:before {
+  content: "\e032";
+  color: #00bcf6;
+}
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-twitter:hover:before,
+.st-icon-twitter:focus:before {
+  color: #7be0ff;
+  color: #7be0ff;
+}
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-youtube:before {
+  content: "\e412";
+  color: #d22222;
+}
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+.st-icon-youtube:hover:before,
+.st-icon-youtube:focus:before {
+  color: #ed8c8c;
+  color: #ed8c8c;
+}
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 304, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* line 3188, ../scss/stackicons-social-minimal/_css-defaults-stackicons-social-minimal.scss */
+
+/* There are 5 button-shape classes (on parent or icon)
+
+  - .st-icon-square:      square button shape
+  also:
+    .st-icon-sq
+    .st-icon-rounded0
+    .st-icon-r0
+
+  - .st-icon-rounded1:    slightly rounded button (Android)
+  also:
+    .st-icon-r1
+
+  - .st-icon-rounded2:    rounded button
+  also:
+    .st-icon-rounded
+    .st-icon-r2
+
+  - .st-icon-rounded3:    more rounded button (iOS 7)
+  also:
+    .st-icon-r3
+
+  - .st-icon-circle:      circle button
+  also:
+    .st-icon-cir
+    .st-icon-rounded4
+    .st-icon-r4
+
+There's also an .st-icon-only class that gets generated by
+a separate _partial file, since you may want that override
+class even if you're happy with the default button shape.
+
+*/
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+.st-icon-r4 .st-icon-facebook-alt:before {
+  content: "\e02e";
+}
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+.st-icon-r4 .st-icon-linkedin:before {
+  content: "\e25e";
+}
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+.st-icon-r4 .st-icon-twitter:before {
+  content: "\e035";
+}
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+.st-icon-r4 .st-icon-youtube:before {
+  content: "\e415";
+}
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 76, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 351, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 628, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 903, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/* line 1181, ../scss/stackicons-social-minimal/_override-button-shapes-stackicons-social-minimal.scss */
+
+/*
+  - .st-icon-only:        no button, icon only
+  also:
+    .st-icon-rounded5 (yes, it's not really rounded)
+    .st-icon-r5
+*/
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 51, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* line 1380, ../scss/stackicons-social-minimal/_override-icon-only-stackicons-social-minimal.scss */
+
+/* STACKICONS-SOCIAL "MULTI-COLOR" CLASSES
+
+Using absolute positioning, we stack multiple
+font characters to create "multi-color" icons,
+e.g., the blue & pink dots in the Flickr logo.
+
+Often, the .st-multi-color version is simply
+a solid button b.g. shape with a white icon.
+This allows us to use text-shadow effects on
+the button and logo separately (in the single
+color version the logo is "cut out" of b.g.).
+
+There is a default button shape for multi-color
+icons, $btn-shape-c0-default, that is set in
+_unicodes-stackicons-social.scss. It mirrors
+the $btn-shape-default set for single color icons
+in _construction-kit-stackicons-social.scss */
+/* line 284, ../scss/_multi-color-kit-stackicons-social.scss */
+.st-multi-color [class^="st-icon-"]:hover,
+.st-multi-color [class^="st-icon-"]:active,
+.st-multi-color [class^="st-icon-"]:focus {
+  opacity: 100%;
+}
+
+/* STACKICONS-SOCIAL "MULTI-COLOR" CLASSES
+
+Using absolute positioning, we stack multiple
+font characters to create "multi-color" icons,
+e.g., the blue & pink dots in the Flickr logo.
+
+Often, the .st-multi-color version is simply
+a solid button b.g. shape with a white icon.
+This allows us to use text-shadow effects on
+the button and logo separately (in the single
+color version the logo is "cut out" of b.g.).
+
+There is a default button shape for multi-color
+icons, $btn-shape-c0-default, that is set in
+_unicodes-stackicons-social.scss. It mirrors
+the $btn-shape-default set for single color icons
+in _construction-kit-stackicons-social.scss */
+/* line 284, ../scss/_multi-color-kit-stackicons-social.scss */
+.st-multi-color [class^="st-icon-"]:hover,
+.st-multi-color [class^="st-icon-"]:active,
+.st-multi-color [class^="st-icon-"]:focus {
+  opacity: 100%;
+}
+
+/* Stackicons-Social-Minimal Brand List
+
+adn, codepen, dribbble, dribbble-alt, email, email2, facebook, facebook-alt, flickr, github, github-alt, gmail, gmail-alt, googleplus, instagram, linkedin, pinboard, pinterest, rss, tumblr, twitter, vimeo, youtube, youtube2, youtube-alt, youtube-alt-sm
+
+nav elements:
+menu, menu-alt, menu-alt2, triangle-down, search, search-alt
+*/
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1887, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-facebook-alt:before {
+  text-shadow: none;
+  content: "\e002";
+  color: #3b5998;
+}
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-facebook-alt:hover:before,
+.st-multi-color .st-icon-facebook-alt:focus:before {
+  text-shadow: none;
+  color: #718ecb;
+}
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-facebook-alt:after {
+  text-shadow: none;
+  content: "\e02f";
+  color: white;
+}
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-facebook-alt:hover:after,
+.st-multi-color .st-icon-facebook-alt:focus:after {
+  text-shadow: 0 1px 1px #999999;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.395);
+  color: white;
+}
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-linkedin:before {
+  text-shadow: none;
+  content: "\e002";
+  color: #107eb8;
+}
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-linkedin:hover:before,
+.st-multi-color .st-icon-linkedin:focus:before {
+  text-shadow: none;
+  color: #45b5f0;
+}
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-linkedin:after {
+  text-shadow: none;
+  content: "\e25f";
+  color: white;
+}
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-linkedin:hover:after,
+.st-multi-color .st-icon-linkedin:focus:after {
+  text-shadow: 0 1px 1px #999999;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.395);
+  color: white;
+}
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1887, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-twitter:before {
+  text-shadow: none;
+  content: "\e002";
+  color: #00bcf6;
+}
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-twitter:hover:before,
+.st-multi-color .st-icon-twitter:focus:before {
+  text-shadow: none;
+  color: #53d7ff;
+}
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-twitter:after {
+  text-shadow: none;
+  content: "\e036";
+  color: white;
+}
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-twitter:hover:after,
+.st-multi-color .st-icon-twitter:focus:after {
+  text-shadow: 0 1px 1px #999999;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.395);
+  color: white;
+}
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1887, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 40, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 579, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1053, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1603, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1777, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 1956, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2464, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 2943, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 3127, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 3241, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 3436, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 3600, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 3840, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4022, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4204, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4367, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4474, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4646, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:before {
+  text-shadow: none;
+  content: "\e002";
+  color: #d22222;
+}
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:hover:before,
+.st-multi-color .st-icon-youtube:focus:before {
+  text-shadow: none;
+  color: #e86969;
+}
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube > span:before {
+  content: "\e417";
+  text-shadow: none;
+  color: #d22222;
+}
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:hover span:before,
+.st-multi-color .st-icon-youtube:focus span:before {
+  text-shadow: 0 1px 1px #999999;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.395);
+  color: #e86969;
+}
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube > span:after {
+  content: "\e410";
+  color: #a8a8a8;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:hover span:after,
+.st-multi-color .st-icon-youtube:focus span:after {
+  color: #c6c6c6;
+  color: rgba(98, 98, 98, 0.3);
+}
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:after {
+  content: "\e416";
+  color: #f1f1f1;
+}
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+.st-multi-color .st-icon-youtube:hover:after,
+.st-multi-color .st-icon-youtube:focus:after {
+  color: #f6f6f6;
+}
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8641, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 4809, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5086, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5235, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5554, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 5829, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6157, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6394, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 6737, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7035, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7317, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7559, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7808, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 7995, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8242, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* line 8437, ../scss/stackicons-social-minimal/_multi-color-css-stackicons-social-minimal.scss */
+
+/* There are 6 button classes (parent or icon)
+
+  - .st-icon-square:      square button shape
+  also:
+    .st-icon-sq
+    .st-icon-rounded0
+    .st-icon-r0
+
+  - .st-icon-rounded1:    slightly rounded button (Android)
+  also:
+    .st-icon-r1
+
+  - .st-icon-rounded2:    rounded button
+  also:
+    .st-icon-rounded
+    .st-icon-r2
+
+  - .st-icon-rounded3:    more rounded button (iOS 7)
+  also:
+    .st-icon-r3
+
+  - .st-icon-circle:      circle button
+  also:
+    .st-icon-cir
+    .st-icon-rounded4
+    .st-icon-r4
+
+  - .st-icon-only:        no button, icon only
+  also:
+    .st-icon-rounded5 (yes, it's not actually rounded)
+    .st-icon-r5
+*/
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+.st-icon-r4.st-multi-color .st-icon-facebook-alt:before {
+  content: "\e005";
+}
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+.st-icon-r4.st-multi-color .st-icon-linkedin:before {
+  content: "\e005";
+}
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+.st-icon-r4.st-multi-color .st-icon-twitter:before {
+  content: "\e005";
+}
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+.st-icon-r4.st-multi-color .st-icon-youtube:before {
+  content: "\e005";
+}
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 84, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 109, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 133, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 153, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 181, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 216, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 237, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 258, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 268, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 282, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 292, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 310, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 328, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 338, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 352, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 362, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 380, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 408, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 457, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 510, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 558, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */
+
+/* line 615, ../scss/stackicons-social-minimal/_multi-color-override-shapes-stackicons-social-minimal.scss */

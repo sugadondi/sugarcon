@@ -1,0 +1,307 @@
+body {
+  background: url("//d2owqhhe2x3j50.cloudfront.net/SugarCon2014/img/cubes_background.png") fixed center top repeat-x, url("//d2owqhhe2x3j50.cloudfront.net/SugarCon2014/img/stripe_bg.png") scroll center top;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+}
+h1 {
+  color: #E61718;
+  text-transform: uppercase;
+  font-size: 62px;
+  font-family: 'HelveticaNeueW01-75Bold';
+}
+h2 {
+  color: #E61718;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: 'HelveticaNeueW01-75Bold';
+}
+h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 500;
+  font-family: 'HelveticaNeueW01-55Roma';
+}
+.lowercase {
+  font-style: normal;
+  text-transform: lowercase;
+}
+.btn-danger {
+  background-color: #E61718;
+}
+.nav-top {
+  margin-bottom: 0;
+}
+.nav-top .navbar {
+  margin-bottom: 0;
+}
+.nav-top .logo {
+  display: inline;
+}
+.nav-top .logo:hover {
+  background-color: none;
+}
+.translate {
+  display: inline;
+  margin-top: 12px;
+}
+.translate .goog-te-gadget-simple {
+  background-color: #222;
+  border: 0;
+}
+.translate .goog-te-gadget-simple .goog-te-menu-value {
+  color: #EEE;
+}
+.header {
+  background: url("//d2owqhhe2x3j50.cloudfront.net/SugarCon2014/img/post/home/header.jpg") no-repeat scroll rgba(0, 0, 0, 0);
+  background-color: black;
+}
+.header .logo {
+  min-height: 158px;
+  width: 391px;
+  margin-left: -15px;
+}
+.header .location {
+  text-align: center;
+  margin-left: -15px;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.header .location p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.header .location .dates {
+  margin-right: 10px;
+}
+.header .location .city {
+  margin-left: 10px;
+}
+.well {
+  border-radius: 0;
+  background: white;
+  border: none;
+}
+.well h3 {
+  font-size: 18pt;
+  color: #E61718;
+  font-family: 'HelveticaNeueW01-75Bold';
+  text-transform: uppercase;
+}
+.main-nav {
+  background-color: black;
+}
+.main-nav .nav-tabs {
+  text-align: center;
+  border: none;
+  margin: auto;
+  text-transform: uppercase;
+}
+.main-nav .nav-tabs > li {
+  float: none;
+  display: inline-block;
+}
+.main-nav .nav-tabs > li.active > a,
+.main-nav .nav-tabs > li:hover > a {
+  color: black;
+}
+.main-nav .nav-tabs > li > a {
+  border-radius: 0;
+  color: #999;
+}
+.content {
+  background-color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+  background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+  background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+  background: -ms-linear-gradient(top, #ffffff, #eeeeee);
+  background: -o-linear-gradient(top, #ffffff, #eeeeee);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.content img {
+  width: 100%;
+}
+.footer {
+  background: black;
+  min-height: 200px;
+}
+.footer .nav-tabs {
+  text-align: center;
+  border: none;
+  margin: auto;
+}
+.footer .nav-tabs > li {
+  float: none;
+  display: inline-block;
+}
+.footer .nav-tabs > li.active > a,
+.footer .nav-tabs > li:hover > a {
+  color: white;
+  background: none;
+  border: 1px solid black;
+}
+.footer .nav-tabs > li > a {
+  border-radius: 0;
+  color: #999;
+}
+.footer .location {
+  color: white;
+  padding-left: 30px;
+}
+.footer .location h2 {
+  color: #E61718;
+}
+.footer .location p {
+  margin-bottom: 0;
+}
+.footer .email-form h2 {
+  color: #E61718;
+}
+/* *******************************************
+ * Tables
+ * *******************************************
+ */
+table {
+  box-shadow: 1px 2px 10px #888;
+}
+table caption {
+  text-align: left;
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 3px solid #E61718;
+}
+table thead {
+  background: #555;
+  color: white;
+  font-weight: bold;
+}
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+table td:nth-child(1) {
+  font-weight: bold;
+}
+table td:nth-child(1),
+table td:nth-child(2) {
+  border-right: 1px solid #555;
+}
+table td em {
+  display: block;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+.twidget {
+  max-height: 115px;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+.twidget iframe {
+  max-height: 115px;
+  min-height: 0 !important;
+  border-radius: 0;
+}
+/* *******************************************
+ * PAGES
+ * *******************************************
+ */
+.home .highlight {
+  background-color: #333;
+}
+.home .highlight b {
+  font-weight: normal;
+  display: block;
+  padding-top: 5px;
+  color: #E61718;
+  margin-left: 10px;
+}
+.home .highlight strong {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+.home .highlight em {
+  display: block;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #FFF;
+  padding-top: 5px;
+  font-style: normal;
+  margin-left: 10px;
+}
+.home .highlight button {
+  margin: 10px;
+}
+.home .gallery-btn {
+  margin-top: 20px;
+}
+.sponsors .content img {
+  max-width: 200px;
+}
+@media (max-width: 480px) {
+  .main-nav .nav-tabs > li {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+  .header {
+    height: 305px;
+  }
+  .header .logo {
+    width: 111%;
+    min-height: auto;
+    height: auto;
+    margin-right: 0;
+  }
+  .main-nav .nav-tabs a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .home #instore li:before {
+    content: ' ';
+    position: absolute;
+    background: url('//d2owqhhe2x3j50.cloudfront.net/SugarCon2014/img/icons.png') no-repeat;
+    background-size: 50px;
+    width: 52px;
+    height: 52px;
+  }
+  .home #instore li {
+    min-height: 0px;
+  }
+  .home #instore li:nth-child(1):before {
+    background-position: 0px -1px;
+  }
+  .home #instore li:nth-child(2):before {
+    background-position: 0px -55px;
+  }
+  .home #instore li:nth-child(3):before {
+    background-position: 0px -111px;
+  }
+  .home #instore li h2,
+  .home #instore li p {
+    margin-left: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    height: 305px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    height: 305px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 305px;
+  }
+}

@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lauren Robertson -- Creative Services & Brand Manager -- @???
+    Jodi Guilbault -- ??? -- @???
+    Dondi Bogusky -- ??? -- @sugadondi
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
